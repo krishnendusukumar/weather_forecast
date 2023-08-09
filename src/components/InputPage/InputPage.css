@@ -1,0 +1,65 @@
+.info-card-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 30%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.info-card {
+    min-width: 10%;
+}
+
+.info-card>h5 {
+    margin-left: 20px;
+    font-size: 14px;
+    color: #42ADFD;
+}
+
+.info-input {
+    margin-top: 20px;
+}
+
+.info-city-name {
+    text-align: center;
+    font-weight: 300;
+    border-radius: 7px;
+    margin: auto;
+    display: block;
+    width: 70%;
+    height: 40px;
+    color: grey;
+}
+
+.below-city-name-hr {
+    display: flex;
+    color: grey;
+    margin-top: 10px;
+}
+
+.below-city-name-hr>hr {
+    margin-top: 12px;
+}
+
+.info-button {
+    width: 100%;
+}
+
+.info-button {
+    margin-top: 10px;
+}
+
+.btn-info {
+    display: block;
+    margin: auto;
+    background-color: #42ADFD;
+    color: white;
+    width: 70%;
+    height: 40px;
+    border-radius: 7px;
+}

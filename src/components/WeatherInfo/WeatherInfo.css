@@ -1,0 +1,129 @@
+.weather-container {
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 60%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.weather-illustrations {
+    position: absolute;
+    bottom: 98%;
+    left: 30%;
+}
+
+.weather-illustrations>img {
+    width: 150px;
+}
+
+.weather-card {
+    min-width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-heading>h5 {
+    display: inline;
+    color: #42ADFD;
+    position: fixed;
+    left: 30%;
+
+}
+
+.card-heading>img {
+    width: 20px;
+    margin-top: 5%;
+}
+
+.weather-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.weather-icon>img {
+    width: 150px;
+}
+
+.weather-temperature {
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-description {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.weather-city {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.weather-city>img {
+    width: 20px;
+}
+
+.weather-forecast {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.weather-feel-like {
+    display: flex;
+    align-items: center;
+}
+
+.weather-feel-like>img {
+    width: 40px;
+}
+
+.weather-temp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.weather-temp>span:nth-of-type(2) {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.weather-humidity {
+    display: flex;
+    align-items: center;
+}
+
+.weather-humidity>img {
+    width: 20px;
+}
+
+.weather-humidity-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.weather-humidity-text:nth-of-type(2) {
+    font-size: 14px;
+    font-weight: 200;
+}
