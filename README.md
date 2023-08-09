@@ -1,3 +1,9 @@
+# LIVE DEMO LINK :
+https://drive.google.com/drive/u/0/my-drive
+
+# Project Deployed link: 
+https://weather-forecast-check.netlify.app/
+
 # Steps to start the application
 1. Git clone
 2. npm i
